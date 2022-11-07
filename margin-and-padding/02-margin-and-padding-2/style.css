@@ -7,21 +7,33 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 4px; /* i still dont understand how to make this 8 */
 }
 
 .title {
   background: #e3f4ff;
+  margin: 8px;
+  font-size: 16px;
+  padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 8px;
+  padding: 16px 8px; 
 }
 
 .button-container {
   background: #e3f4ff;
+  margin: 8 px;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
+  display: block; /* needs to be defined as a block*/
+  margin-left: 120px; /* to align it in the center as best as could be */
 }
