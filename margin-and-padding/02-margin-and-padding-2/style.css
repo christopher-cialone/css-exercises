@@ -2,38 +2,38 @@ body {
   background: #eee;
   font-family: sans-serif;
 }
-
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
-  padding: 4px; /* i still dont understand how to make this 8 */
 }
 
 .title {
   background: #e3f4ff;
-  margin: 8px;
   font-size: 16px;
-  padding: 8px;
+  padding: 15px 10px 15px 10px;
 }
 
 .content {
   background: #e3f4ff;
-  margin: 8px;
-  padding: 16px 8px; 
+  padding: 10px;
 }
 
-.button-container {
+.button {
   background: #e3f4ff;
-  margin: 8 px;
   text-align: center;
-  padding: 8px;
+  padding: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: block;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
-  padding: 8px 24px;
-  display: block; /* needs to be defined as a block*/
-  margin-left: 120px; /* to align it in the center as best as could be */
+  border: 2px solid #eee;
+/* This centres the button */
+  margin: auto;
+/* This makes the button a block (puts it on a new line essentially) */
+  display: block;
 }
